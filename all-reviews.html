@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>All Reviews</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Niramit:wght@200;300;400;600;700&family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="header" style="min-height: auto; background: #0c0c0c;">
+        <nav>
+            <a href="index.html" class="back-btn">
+                <i class="fa-solid fa-chevron-left"></i> Home
+            </a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html#allmovies">ALL MOVIES</a></li>
+                    <li><a href="all-reviews.html" style="color: #f44336;">REVIEWS</a></li> <li><a href="#">ABOUT US</a></li>
+                    <li><a href="About_1.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <div class="catalog-container">
+        <h1>All Reviews Collection</h1>
+        <p class="catalog-desc">เลือกภาพยนตร์ที่คุณต้องการอ่านบทวิจารณ์</p>
+
+        <div class="movie-grid">
+            
+            <a href="reviews.html?movie=evil-dead" class="movie-card">
+                <div class="card-img">
+                    <img src="https://www.framerated.co.uk/frwpcontent/uploads/2023/04/evildeadrise01.jpeg" alt="Evil Dead Rise">
+                    <div class="card-overlay">
+                        <span>Read Review</span>
+                    </div>
+                </div>
+                <h3>Evil Dead Rise</h3>
+            </a>
+
+            <a href="reviews.html?movie=substance" class="movie-card">
+                <div class="card-img">
+                    <img src="https://film-grab.com/wp-content/uploads/photo-gallery/The_Substance_53.jpg?bwg=1731086039" alt="The Substance">
+                    <div class="card-overlay">
+                        <span>Read Review</span>
+                    </div>
+                </div>
+                <h3>The Substance</h3>
+            </a>
+
+            <a href="reviews.html?movie=conjuring" class="movie-card">
+                <div class="card-img">
+                    <img src="https://film-grab.com/wp-content/uploads/2014/03/39-1.jpg" alt="The Conjuring">
+                    <div class="card-overlay">
+                        <span>Read Review</span>
+                    </div>
+                </div>
+                <h3>The Conjuring</h3>
+            </a>
+
+            <a href="reviews.html?movie=midsommar" class="movie-card">
+                <div class="card-img">
+                    <img src="https://film-grab.com/wp-content/uploads/photo-gallery/Midsommar_059.jpg?bwg=1594644008" alt="Midsommar">
+                    <div class="card-overlay">
+                        <span>Read Review</span>
+                    </div>
+                </div>
+                <h3>Midsommar</h3>
+            </a>
+
+            <a href="reviews.html?movie=weapons" class="movie-card">
+                <div class="card-img">
+                    <img src="https://media.outnow.ch/Movies/Bilder/2025/Weapons/009.jpg" alt="Weapons">
+                    <div class="card-overlay">
+                        <span>Read Review</span>
+                    </div>
+                </div>
+                <h3>Weapons</h3>
+            </a>
+
+            <a href="reviews.html?movie=his-house" class="movie-card">
+                <div class="card-img">
+                    <img src="https://film-grab.com/wp-content/uploads/photo-gallery/His_House_047.jpg?bwg=1648556846" alt="His House">
+                    <div class="card-overlay">
+                        <span>Read Review</span>
+                    </div>
+                </div>
+                <h3>His House</h3>
+            </a>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

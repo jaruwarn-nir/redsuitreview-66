@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <title>Movie Review</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Niramit:wght@200;300;400;600;700&family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-review-detail">
+
+    <section class="header" style="min-height: auto; background: #0c0c0c; height:auto;">
+        <nav>
+            <a href="index.html" class="back-btn">
+                <i class="fa-solid fa-chevron-left"></i> Back
+            </a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html#allmovies">ALL MOVIES</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <div class="review-detail-container">
+        
+        <div class="review-header">
+            <h1 id="movie-title-placeholder">กำลังโหลด...</h1>
+            <div class="review-header-info">
+                <span id="movie-year-placeholder"></span>
+                <span id="movie-rating-placeholder"></span>
+                <span id="movie-duration-placeholder"></span>
+            </div>
+        </div>
+
+        <div class="review-content-wrapper" id="review-content-wrapper">
+            
+            <div class="review-poster">
+                <img id="movie-poster-placeholder" src="" alt="">
+            </div>
+            
+            <div class="review-text">
+                <div class="review-score-box">
+                    <strong>Score:</strong> <span id="movie-score-placeholder">-</span> / 10
+                </div>
+                
+                <div id="movie-review-text-placeholder">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
